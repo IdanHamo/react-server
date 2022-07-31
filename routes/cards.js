@@ -78,7 +78,7 @@ router.post("/createRecipe", auth, async (req, res) => {
     dishInstructions: req.body.dishInstructions,
     dishImage: req.body.dishImage
       ? req.body.dishImage
-      : "../images/unirex-secondery-logo.png",
+      : "https://cdn.w600.comps.canstockphoto.com/recipes-3d-concept-stock-illustration_csp9417848.jpg",
     user_id: req.user._id,
   });
 
